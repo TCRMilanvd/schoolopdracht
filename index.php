@@ -33,7 +33,7 @@
 	// Check login session: staat de user in de session?
 	if(!$user->IsLoggedin()){
 		// Alert not login
-		echo "U bent ingelogd. Trots op u!.<br><br>";
+		echo "Welkom op de Website.<br><br>";
 		// Toon login button
 		echo '<a href = "login_form.php">Login</a>';
 	} else {
